@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    
+}
+
+body{
+background-color: #191970;
+display: flex;
+flex-direction: row;
+
+}
+
+
+/*--------------------------------link-------------------------------------------------*/
+
+
+nav a:first-child{
+
+    margin-top:15px;
+    
+
+}
+ nav a {
+
+   display: block;
+   text-align: center;
+   
+   text-decoration: none;
+   color: white;
+   width: 100%;
+   height: 35px;
+   transition: all 1s ;
+   
+ }
+
+ nav a:hover{
+
+    background-color:#6262ee;
+    border-left: 1px solid #191970;
+    color:#191970;
+
+ }
+ #menu p{
+
+
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom:20px;
+    font-size: 18px;
+
+ }
+
+
+/*--------------------------------image-------------------------------------------------*/
+
+.image img{
+
+    height: 500px;
+   
+    border-radius: 10px;
+    margin: 15vh 0 0 10vw;
+
+}
+
+/*--------------------------------musica-------------------------------------------------*/
+
+
+.conteiner{
+    width: 40vw;
+    margin-top: 10%;
+    margin-left: 5%;
+    display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap:50px;
+}
+
+.musica{
+    display: flex;
+    flex-direction: column;
+   
+    margin-top: 10px;
+   
+    
+    height: 100px;
+    width: 10px;
+    border-radius: 5px;
+
+}
+
+.musica  a img{
+
+width:150px;
+height: 150px;
+border-radius: 5px;
+transition: all 1s;
+
+}
+.musica  a img:hover{
+
+    width: 160px;
+    height: 160px;
+    
+    
+    }
+   
+
+
+/*--------------------------------menu-------------------------------------------------*/
+
+#menu{
+
+    height: 100vh;
+    width: 200px;
+    background-color:#262685;
+    border-right:1px solid #6262ee;
+
+}
+
+
+/*--------------------------------pagina de musica-------------------------------------------------*/
+
+main iframe{
+
+    width: 500px;
+    height: 300px;
+    margin: 60px 20px 0 70px;
+}
+
+.box {
+
+
+    height: 600px;
+    width: 400px;
+    background-color: #6262ee;
+    border-radius: 10px;
+    overflow-y: scroll;
+    margin: 3% 0 0 5%;
+    padding: 10px;
+
+}
+.box p{
+
+    color:white;
+
+
+}
